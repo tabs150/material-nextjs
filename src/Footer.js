@@ -66,11 +66,8 @@ function FooterNavList() {
         List Title
       </Typography>
       <List>
-        <ListItem>Home</ListItem>
         <ListItem>About</ListItem>
         <ListItem>Shop</ListItem>
-        <ListItem>Blog</ListItem>
-        <ListItem>Contact</ListItem>
         <ListItem>Privacy Policy</ListItem>
         <ListItem>Terms & Conditions</ListItem>
       </List>
