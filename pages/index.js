@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { CssBaseline } from '@material-ui/core';
 import Header from '../src/Header';
+import Home from '../src/Home';
 import Footer from '../src/Footer';
 import { products, sections } from '../src/store';
 
@@ -55,6 +56,8 @@ function Index() {
         increment={increment}
         decrement={decrement}
       />
+
+      <Home />
 
       <Footer />
     </>
