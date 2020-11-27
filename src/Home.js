@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Hero from '../components/Hero'
 import ProductBox from '../components/ProductBox';
+import ProductFilter from '../components/ProductFilter';
 import macbook from '../public/images/macbook-pro.jpg';
 import macbookAir from '../public/images/macbook-air.jpeg';
 import iphone from '../public/images/iphone-cat.jpg';
@@ -53,6 +54,7 @@ const topProducts = [
   },
 ];
 
+
 const useStyles = makeStyles((theme) => ({
   grid: {
     width: '80%',
@@ -76,6 +78,7 @@ function Home() {
   const classes = useStyles();
   return (
     <>
+
     <section className={classes.section}>
         <Hero />
         <Container>
@@ -85,6 +88,8 @@ function Home() {
             ))}
           </Grid>
         </Container>
+      <section id='product-filter' className={classes.section}>
+        <ProductFilter />
       </section>
     </>
   )
