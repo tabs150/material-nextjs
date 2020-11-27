@@ -88,6 +88,7 @@ function Home() {
             ))}
           </Grid>
         </Container>
+        </section>
       <section id='product-filter' className={classes.section}>
         <ProductFilter />
       </section>
