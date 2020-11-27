@@ -15,8 +15,8 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "swiper": "^6.3.5",
     "react-icons": "^4.1.0",
+    "swiper": "^6.3.5",
     "webp-loader": "^0.6.0"
   },
   "scripts": {
