@@ -1,7 +1,7 @@
 import macbook from '../public/images/macbook-pro.jpg';
 import macbookAir from '../public/images/macbook-air.jpeg';
 import iphone from '../public/images/iphone-cat.jpg';
-import iphone6s from '../public/images/iphone6s.jpg';
+// import iphone6s from '../public/images/iphone6s.jpg';
 // import iphoneX from '../public/images/iphone-x.jfif';
 import airpods from '../public/images/airpods.jpeg';
 import earpods from '../public/images/homeoffice.jpg';
@@ -74,7 +74,7 @@ export const products = [
     qty: 0,
     description:
       'This is a wider card with supporting text below as a natural lead-in.',
-    image: iphone6s,
+    image: iphone,
     imageText: 'Image Text',
     rating: 4,
     bgColor: '#FF6875',
